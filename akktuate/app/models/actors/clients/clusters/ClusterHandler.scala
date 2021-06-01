@@ -4,13 +4,17 @@ import akka.actor._
 import play.api._
 import play.api.mvc._
 import javax.inject._
+import com.typesafe.config.Config
 import com.typesafe.config.ConfigFactory
 
-object ClusterListenerHandler {
+import pty.nfvd.app.models.actors.clients.clusters.ClusterListener
+
+object ClusterHandler {
  	case object GetConfig
 }
 
-class ClusterListenerHandler @Inject() (clusterConfig: Configuration) extends Actor with App {
+@Override
+class ClusterHandler @Inject() (clusterConfig: com.typesafe.config.Config) extends Actor with App with ClusterListener {
 	import ClusterListenerHandler._
 
 	val clusterConfig = ConfigFactory.load()
@@ -22,5 +26,16 @@ class ClusterListenerHandler @Inject() (clusterConfig: Configuration) extends Ac
 			sender() ! configOpts
 	}
 
-	ActorSystem(DockerClusterListener(), receive())
+	ClusterListener() {
+		// TODO(Daniel): code ...
+	}
+
+	def apply(strCtx: String): com.typesafe.config.Config = {
+		clusterOpts = ConfigFactory.parseString(strCtx)
+		// TODO(Daniel): get String Context and Configuration type thru each functor
+		ClusterListener()
+		ClusterListener.andThen()
+	}
+
+	ActorSystem(ClusterListener(), receive())
 } // https://www.playframework.com/documentation/2.8.x/ScalaAkka#Integrating-with-Akka

@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "akktuate-build-build",
-        "directory": "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project",
-        "workspaceDir": "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project",
+        "directory": "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project",
+        "workspaceDir": "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project",
         "sources": [
-            "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\src\\main\\scala",
-            "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\src\\main\\scala-2.12",
-            "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\src\\main\\scala-2",
-            "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\src\\main\\java",
-            "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\src\\main\\scala-sbt-1.0",
-            "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\src\\main\\scala",
+            "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\src\\main\\scala-2.12",
+            "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\src\\main\\scala-2",
+            "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\src\\main\\java",
+            "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\src\\main\\scala-sbt-1.0",
+            "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -105,11 +105,11 @@
             "C:\\Users\\danie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okio\\okio\\1.17.2\\okio-1.17.2.jar",
             "C:\\Users\\danie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.3.3\\config-1.3.3.jar"
         ],
-        "out": "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\.bloop\\akktuate-build-build",
-        "classesDir": "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\.bloop\\akktuate-build-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\.bloop\\akktuate-build-build",
+        "classesDir": "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\.bloop\\akktuate-build-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\src\\main\\resources",
-            "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\src\\main\\resources",
+            "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -126,7 +126,7 @@
                 "C:\\Users\\danie\\.sbt\\boot\\scala-2.12.13\\lib\\scala-reflect.jar",
                 "C:\\Users\\danie\\.sbt\\boot\\scala-2.12.13\\lib\\scala-xml_2.12-1.0.6.jar"
             ],
-            "analysis": "F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
+            "analysis": "F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -201,7 +201,7 @@
             "config": {
                 "home": "F:\\Program Files\\AdoptOpenJDK\\jdk-11.0.11.9-openj9",
                 "options": [
-                    "-Duser.dir=F:\\Users\\Amstel\\workspaces\\akktuate\\akktuate\\project\\project"
+                    "-Duser.dir=F:\\Users\\Amstel\\Documents\\GitHub\\akktuate\\akktuate\\project\\project"
                 ]
             },
             "mainClass": [

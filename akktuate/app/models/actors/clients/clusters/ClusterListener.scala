@@ -8,14 +8,14 @@ import akka.cluster.ClusterEvent._
 import com.nfvd.app.utils.api.RestfulApiRegistry
 import com.nfvd.app.utils.api.RestfulHttpsPgpdEvent._
 
-object DockerClusterListener {
+object ClusterListener {
 	def props = Props[DockerClusterListener]
 
 	case class PgpdGet(str: String)
 }
 
 @Singleton
-class DockerClusterListener @Inject() extends Actor {
+class ClusterListener @Inject() extends Actor {
 	sealed trait Reference
 	case class AcknowledgeActorReferee(reply: ActorRef[Reference])
 

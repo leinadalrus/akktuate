@@ -6080,3 +6080,666 @@ Caused by: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT
 	at com.google.gson.Gson.fromJson(Gson.java:888)
 	... 16 more
 
+2021.06.01 23:08:12 INFO  Started: Metals version 0.9.8 in workspace 'F:\Users\Amstel\Documents\GitHub\akktuate\akktuate' for client sublime.
+2021.06.01 23:08:17 INFO  time: initialize in 5.68s
+2021.06.01 23:08:22 WARN  Build server is not auto-connectable.
+2021.06.01 23:08:22 INFO  Selected port 5031
+2021.06.01 23:08:22 INFO  shutting down Metals
+2021.06.01 23:08:33 INFO  Started: Metals version 0.9.8 in workspace 'F:\Users\Amstel\Documents\GitHub\akktuate\akktuate' for client sublime.
+2021.06.01 23:08:39 INFO  time: initialize in 6.38s
+2021.06.01 23:08:42 WARN  Build server is not auto-connectable.
+2021.06.01 23:08:42 INFO  Selected port 5031
+2021.06.01 23:08:42 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterListener.scala
+2021.06.01 23:08:42 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterCompose.scala
+2021.06.01 23:08:42 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:08:42 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:08:45 INFO  running 'F:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-openj9\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\danie\AppData\Local\Temp\metals17482310083162037156\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+Jun. 01, 2021 11:08:48 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.3.Final
+Jun. 01, 2021 11:08:48 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+Jun. 01, 2021 11:08:48 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+Jun. 01, 2021 11:08:49 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2021.06.01 23:08:49 INFO  Started Metals http server at http://127.0.0.1:5031
+2021.06.01 23:08:52 INFO  no build target: using presentation compiler with only scala-library
+2021.06.01 23:08:54 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:08:58 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+Jun. 01, 2021 11:09:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint logIssues
+WARNING: Issue found in NotificationMessage: Message could not be parsed.
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.Gson.fromJson(Gson.java:900)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.fromJson(MessageTypeAdapter.java:339)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.parseParams(MessageTypeAdapter.java:298)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:119)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.internal.bind.JsonTreeReader.nextString(JsonTreeReader.java:180)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:401)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:389)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	... 16 more
+
+Jun. 01, 2021 11:09:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint logIssues
+WARNING: Issue found in NotificationMessage: Message could not be parsed.
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.Gson.fromJson(Gson.java:900)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.fromJson(MessageTypeAdapter.java:339)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.parseParams(MessageTypeAdapter.java:298)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:119)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.internal.bind.JsonTreeReader.nextString(JsonTreeReader.java:180)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:401)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:389)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	... 16 more
+
+2021.06.01 23:09:13 INFO  [info] welcome to sbt 1.5.2 (AdoptOpenJDK Java 11.0.11)
+2021.06.01 23:09:16 INFO  [info] loading global plugins from C:\Users\danie\.sbt\1.0\plugins
+2021.06.01 23:09:25 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:09:33 INFO  [info] loading settings for project akktuate-build-build-build from metals.sbt ...
+2021.06.01 23:09:33 INFO  [info] loading project definition from F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\project\project\project
+2021.06.01 23:09:36 INFO  [info] loading settings for project akktuate-build-build from metals.sbt ...
+2021.06.01 23:09:36 INFO  [info] loading project definition from F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\project\project
+Jun. 01, 2021 11:09:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint logIssues
+WARNING: Issue found in NotificationMessage: Message could not be parsed.
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.Gson.fromJson(Gson.java:900)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.fromJson(MessageTypeAdapter.java:339)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.parseParams(MessageTypeAdapter.java:298)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:119)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.internal.bind.JsonTreeReader.nextString(JsonTreeReader.java:180)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:401)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:389)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	... 16 more
+
+Jun. 01, 2021 11:09:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint logIssues
+WARNING: Issue found in NotificationMessage: Message could not be parsed.
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.Gson.fromJson(Gson.java:900)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.fromJson(MessageTypeAdapter.java:339)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.parseParams(MessageTypeAdapter.java:298)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:119)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.internal.bind.JsonTreeReader.nextString(JsonTreeReader.java:180)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:401)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:389)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	... 16 more
+
+2021.06.01 23:09:41 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:09:44 INFO  [success] Generated .bloop\akktuate-build-build.json
+2021.06.01 23:09:44 INFO  [success] Total time: 7 s, completed 1 Jun. 2021, 11:09:44 pm
+2021.06.01 23:09:48 INFO  [info] loading settings for project akktuate-build from metals.sbt,plugins.sbt ...
+2021.06.01 23:09:48 INFO  [info] loading project definition from F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\project
+2021.06.01 23:10:13 INFO  [success] Generated .bloop\akktuate-build.json
+2021.06.01 23:10:13 INFO  [success] Total time: 25 s, completed 1 Jun. 2021, 11:10:14 pm
+2021.06.01 23:10:18 ERROR F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\build.sbt:37: error: type mismatch;
+2021.06.01 23:10:18 ERROR  found   : sbt.librarymanagement.ModuleID
+2021.06.01 23:10:18 ERROR  required: sbt.Def.SettingsDefinition
+2021.06.01 23:10:18 ERROR   .jvmSettings("org.scala-js" %% "scalajs-stubs" % "1.0.0" % "provided")
+2021.06.01 23:10:18 ERROR                                                            ^
+2021.06.01 23:10:18 ERROR F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\build.sbt:38: error: not found: value scalaJsUseMainModuleInitializer
+2021.06.01 23:10:18 ERROR   .jsSettings(scalaJsUseMainModuleInitializer := true)
+2021.06.01 23:10:18 ERROR               ^
+2021.06.01 23:10:18 ERROR sbt.compiler.EvalException: Type error in expression
+2021.06.01 23:10:18 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2021.06.01 23:10:18 INFO  [error] Use 'last' for the full log.
+2021.06.01 23:10:18 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2021.06.01 23:10:18 INFO  sbt bloopInstall exit: 1
+2021.06.01 23:10:18 INFO  time: ran 'sbt bloopInstall' in 1m32s
+2021.06.01 23:10:18 ERROR sbt command failed: F:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-openj9\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\danie\AppData\Local\Temp\metals17482310083162037156\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2021.06.01 23:10:29 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:10:33 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:11:09 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:11:21 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:11:45 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+Jun. 01, 2021 11:12:12 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:15 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:16 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:16 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:20 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:20 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:20 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:21 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+Jun. 01, 2021 11:12:22 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.ScalaPresentationCompiler$$Lambda$2465/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1543/0x0000000000000000.apply(Unknown Source)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerAccess$$Lambda$1544/0x0000000000000000.apply$mcV$sp(Unknown Source)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+
+2021.06.01 23:13:01 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:13:08 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+Jun. 01, 2021 11:14:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint logIssues
+WARNING: Issue found in NotificationMessage: Message could not be parsed.
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.Gson.fromJson(Gson.java:900)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.fromJson(MessageTypeAdapter.java:339)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.parseParams(MessageTypeAdapter.java:298)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:119)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.internal.bind.JsonTreeReader.nextString(JsonTreeReader.java:180)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:401)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:389)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	... 16 more
+
+2021.06.01 23:14:06 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+Jun. 01, 2021 11:14:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint logIssues
+WARNING: Issue found in NotificationMessage: Message could not be parsed.
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.Gson.fromJson(Gson.java:900)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.fromJson(MessageTypeAdapter.java:339)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.parseParams(MessageTypeAdapter.java:298)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:119)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.internal.bind.JsonTreeReader.nextString(JsonTreeReader.java:180)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:401)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:389)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	... 16 more
+
+2021.06.01 23:14:46 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:15:31 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:16:01 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:16:36 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:16:36 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:17:03 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:17:49 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:17:53 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:18:00 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:18:06 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:18:12 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:18:14 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:18:23 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:18:25 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:18:48 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:19:06 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+Jun. 01, 2021 11:19:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint logIssues
+WARNING: Issue found in NotificationMessage: Message could not be parsed.
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.Gson.fromJson(Gson.java:900)
+	at com.google.gson.Gson.fromJson(Gson.java:953)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.fromJson(MessageTypeAdapter.java:339)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.parseParams(MessageTypeAdapter.java:298)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:119)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: java.lang.IllegalStateException: Expected STRING but was BEGIN_OBJECT at path $
+	at com.google.gson.internal.bind.JsonTreeReader.nextString(JsonTreeReader.java:180)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:401)
+	at com.google.gson.internal.bind.TypeAdapters$16.read(TypeAdapters.java:389)
+	at com.google.gson.Gson.fromJson(Gson.java:888)
+	... 16 more
+
+2021.06.01 23:19:28 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:19:30 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:19:51 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:19:55 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:19:59 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:20:00 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:20:04 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:20:10 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:20:22 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:20:29 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala
+2021.06.01 23:20:33 WARN  no build target for: F:\Users\Amstel\Documents\GitHub\akktuate\akktuate\app\models\actors\clients\clusters\ClusterHandler.scala

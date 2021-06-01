@@ -7,7 +7,7 @@ import akka.cluster.ClusterEvent._
 import akka.cluster.typed.Cluster
 import akka.cluster.typed.Subscribe
 
-object ClusterListenCompose {
+object ClusterCompose {
 	def apply(): Behavior[ClusterEvent.ClusterDomainEvent] =
 		Behaviors.setup { ctx =>
 			ctx.log.debug("App now listening to: [Docker-compose] cluster ...")
