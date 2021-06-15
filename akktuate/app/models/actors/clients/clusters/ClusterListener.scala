@@ -40,8 +40,8 @@ class ClusterListener @Inject() extends Actor with ActorLogging {
 			} else
 				log.info(s"$member downed yet was REMOVED afterwards.")
 
-		case UnreachableMember(member) => log.info(s"$m UNREACHABLE")
-		case reachableMember(member) => log.info(s"$m REACHABLE")
+		case UnreachableMember(member) => log.info(s"$member UNREACHABLE")
+		case ReachableMember(member) => log.info(s"$member REACHABLE")
 		case s: CurrentClusterState => log.info(s"Cluster state: $s")
 	}
 

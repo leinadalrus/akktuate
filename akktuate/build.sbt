@@ -18,17 +18,24 @@ lazy val root = crossProject(JSPlatform, JVMPlatform).in(file("."))
       organization    := "pty.nfvd.app",
       scalaVersion    := "2.12.12"
     )),
-    name := "Tiddlet",
+    name := "Akktuate",
     libraryDependencies ++= Seq(
+      "com.lightbend.akka" %% "akka-stream-alpakka-ftp" % "2.0.2",
       "com.typesafe.akka" %% "akka-http"                % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-http-spray-json"     % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-actor-typed"         % akkaVersion,
       "com.typesafe.akka" %% "akka-stream"              % akkaVersion,
-      "ch.qos.logback"    % "logback-classic"           % "1.2.3",
-      "com.lihaoyi" %%% "scalatags" % "0.8.5",
-
       "com.typesafe.akka" %% "akka-http-testkit"        % akkaHttpVersion % Test,
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
+      "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
+      "org.apache.ftpserver" % "ftpserver-core" % "1.1.1", // ApacheV2
+      "com.fasterxml.jackson.core" % "jackson-databind" % "2.11.4",
+      "com.google.jimfs" % "jimfs" % "1.1", // ApacheV2
+      "org.apache.kafka" %% "kafka" % "2.4.1",
+      "ch.qos.logback"    % "logback-classic"           % "1.2.3",
+      "org.apache.sshd" % "sshd-scp" % "2.5.1", // ApacheV2
+      "org.apache.sshd" % "sshd-sftp" % "2.5.1", // ApacheV2
+      "com.lihaoyi" %%% "scalatags" % "0.8.5",
       "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2",
       "org.scalatest"     %% "scalatest"                % "3.1.4"         % Test,
       "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
